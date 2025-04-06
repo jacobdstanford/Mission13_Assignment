@@ -77,5 +77,44 @@ namespace Mission11.Controllers
 
             return Ok(categories);
         }
+
+
+        // POST: api/books
+        [HttpPost]
+        public async Task<IActionResult> CreateBook([FromBody] Book newBook)
+        {
+            if (!ModelState.IsValid) return BadRequest(ModelState);
+
+            _context.Books.Add(newBook);
+            await _context.SaveChangesAsync();
+            return CreatedAtAction(nameof(GetBooks),
+                new { pageNumber = 1, pageSize = 1, category = newBook.Category },
+                newBook);
+        }
+
+        // PUT: api/books/{id}
+        [HttpPut("{id}")]
+        public async Task<IActionResult> UpdateBook(int id, [FromBody] Book updated)
+        {
+            if (id != updated.BookId) return BadRequest("Id mismatch");
+
+            _context.Entry(updated).State = EntityState.Modified;
+            await _context.SaveChangesAsync();
+            return NoContent();
+        }
+
+        // DELETE: api/books/{id}
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> DeleteBook(int id)
+        {
+            var book = await _context.Books.FindAsync(id);
+            if (book == null) return NotFound();
+
+            _context.Books.Remove(book);
+            await _context.SaveChangesAsync();
+            return NoContent();
+        }
+
+
     }
 }
