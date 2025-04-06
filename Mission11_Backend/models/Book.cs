@@ -5,7 +5,7 @@ namespace Mission11.Models
     public class Book
     {
         [Key]
-        public int bookId { get; set; }
+        public int BookId { get; set; }
 
         [Required]
         public string Title { get; set; } = string.Empty;

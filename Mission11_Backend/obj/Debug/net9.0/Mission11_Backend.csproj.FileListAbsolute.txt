@@ -228,3 +228,9 @@
 /Users/jacobstanford/Desktop/Mission13_Assignment/Mission11_Backend/obj/Debug/net9.0/Mission11_Backend.pdb
 /Users/jacobstanford/Desktop/Mission13_Assignment/Mission11_Backend/obj/Debug/net9.0/Mission11_Backend.genruntimeconfig.cache
 /Users/jacobstanford/Desktop/Mission13_Assignment/Mission11_Backend/obj/Debug/net9.0/ref/Mission11_Backend.dll
+/Users/jacobstanford/Desktop/Mission13_Assignment/Mission11_Backend/bin/Debug/net9.0/publish/web.config
+/Users/jacobstanford/Desktop/Mission13_Assignment/Mission11_Backend/bin/Debug/net9.0/publish/appsettings.Development.json
+/Users/jacobstanford/Desktop/Mission13_Assignment/Mission11_Backend/bin/Debug/net9.0/publish/appsettings.json
+/Users/jacobstanford/Desktop/Mission13_Assignment/Mission11_Backend/bin/Debug/net9.0/publish/Mission11_Backend.deps.json
+/Users/jacobstanford/Desktop/Mission13_Assignment/Mission11_Backend/bin/Debug/net9.0/publish/Mission11_Backend.runtimeconfig.json
+/Users/jacobstanford/Desktop/Mission13_Assignment/Mission11_Backend/bin/Debug/net9.0/publish/Mission11_Backend.staticwebassets.endpoints.json
