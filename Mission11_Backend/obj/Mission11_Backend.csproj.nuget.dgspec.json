@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/jacobstanford/Desktop/Mission12_Assignment/Mission11_Backend/Mission11_Backend.csproj": {}
+    "/Users/jacobstanford/Desktop/Mission13_Assignment/Mission11_Backend/Mission11_Backend.csproj": {}
   },
   "projects": {
-    "/Users/jacobstanford/Desktop/Mission12_Assignment/Mission11_Backend/Mission11_Backend.csproj": {
+    "/Users/jacobstanford/Desktop/Mission13_Assignment/Mission11_Backend/Mission11_Backend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/jacobstanford/Desktop/Mission12_Assignment/Mission11_Backend/Mission11_Backend.csproj",
+        "projectUniqueName": "/Users/jacobstanford/Desktop/Mission13_Assignment/Mission11_Backend/Mission11_Backend.csproj",
         "projectName": "Mission11_Backend",
-        "projectPath": "/Users/jacobstanford/Desktop/Mission12_Assignment/Mission11_Backend/Mission11_Backend.csproj",
+        "projectPath": "/Users/jacobstanford/Desktop/Mission13_Assignment/Mission11_Backend/Mission11_Backend.csproj",
         "packagesPath": "/Users/jacobstanford/.nuget/packages/",
-        "outputPath": "/Users/jacobstanford/Desktop/Mission12_Assignment/Mission11_Backend/obj/",
+        "outputPath": "/Users/jacobstanford/Desktop/Mission13_Assignment/Mission11_Backend/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/jacobstanford/.nuget/NuGet/NuGet.Config"
